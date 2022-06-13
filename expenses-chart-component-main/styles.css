@@ -1,0 +1,84 @@
+#html {
+    background: hsl(27, 66%, 92%);
+}
+
+#main {
+    display: grid;
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.balance {
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px;
+    justify-content: center;
+    padding: 25px;
+    font-family: serif;
+    font-size: 20px;
+    margin: auto;
+    width: 30vw;
+    height: 30px;
+
+}
+
+.diagram {
+    background-color: #F9F5DC;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 25px;
+    font-family: [DM SANS];
+    font-size: 18px;
+    font-weight: 400, 700;
+    margin: auto;
+    width: 30vw;
+    height: 35vh;
+
+}
+
+.attribution {
+    /*   position:absolute; */
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 11px;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    top: 500px;
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+.circle1 {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* On screens that are 1440px (dektop) or less, set the background color to blue */
+@media screen and (max-width: 1440px) {
+    body {
+        font-weight: 700;
+    }
+}
+
+/* On screens that are 375px (mobile) or less, set the background color to red */
+@media screen and (max-width: 375px) {
+    body {
+        font-weight: 400;
+    }
+}
